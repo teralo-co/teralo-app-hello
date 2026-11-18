@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Hello</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<main id="page" hidden>
+			<nav><a href="/" data-screen>Home</a> <a href="/about" data-screen>About</a></nav>
+			<section id="home">
+				<h1>Hello, <span id="project"></span></h1>
+				<p><span id="visits"></span> visits recorded on this project.</p>
+				<p>
+					<button id="visit" class="primary">Record a visit</button>
+					<button id="download">Download visits</button>
+				</p>
+			</section>
+			<section id="about" hidden>
+				<h1>About</h1>
+				<p>
+					This screen is <code>/about</code>. Teralo keeps it in its own address bar, so Back,
+					reload and a shared link come back here.
+				</p>
+			</section>
+		</main>
+		<main id="card" hidden>
+			<p class="big" id="card-visits"></p>
+			<p>visits on this project</p>
+			<button id="open">Open Hello</button>
+		</main>
+		<script type="module" src="app.js"></script>
+	</body>
+</html>

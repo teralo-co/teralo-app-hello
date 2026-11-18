@@ -1,0 +1,13 @@
+{
+	"name": "teralo-app-hello",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "teralo-app build",
+		"dev": "teralo-app publish --dev --to http://localhost:5173"
+	},
+	"dependencies": {
+		"@teralo-co/apps": "^0.1.0"
+	},
+	"license": "MIT"
+}

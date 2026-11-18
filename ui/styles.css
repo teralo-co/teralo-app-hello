@@ -1,0 +1,44 @@
+/* Teralo's own theme tokens arrive on :root (light or dark, following Teralo). */
+body {
+	margin: 0;
+	padding: 16px;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: var(--font-sans, system-ui, sans-serif);
+	font-size: 14px;
+}
+h1 {
+	font-size: 20px;
+	margin: 0 0 8px;
+}
+nav {
+	display: flex;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+a {
+	color: var(--link);
+}
+button {
+	font: inherit;
+	padding: 6px 12px;
+	border-radius: var(--radius, 6px);
+	border: 1px solid var(--border);
+	background: var(--card);
+	color: var(--card-foreground);
+	cursor: pointer;
+}
+button.primary {
+	background: var(--primary);
+	border-color: var(--primary);
+	color: var(--primary-foreground);
+}
+.big {
+	font-size: 32px;
+	font-weight: 700;
+	margin: 0;
+}
+#card p {
+	margin: 0 0 8px;
+	color: var(--muted-foreground);
+}

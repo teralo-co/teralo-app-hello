@@ -1,0 +1,12 @@
+{
+	"id": "hello",
+	"name": "Hello",
+	"version": "0.1.0",
+	"teraloApi": 1,
+	"publisher": "Teralo",
+	"description": "The smallest complete Teralo app: shows the project's name, keeps a count of visits in its own database, and offers a dashboard card. Copy it to start your own.",
+	"scopes": ["project:read", "database"],
+	"egress": [],
+	"card": true,
+	"server": "server/index.js"
+}
